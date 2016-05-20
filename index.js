@@ -11,17 +11,17 @@ const allEmotions = [
     "fear",
     "helplessness",
     "powerlessness",
-    "worry", 
+    "worry",
     "doubt",
     "envy",
     "frustration",
     "guilt",
-    "shame", 
+    "shame",
     "boredom",
     "despair",
     "disappointment",
     "hurt",
-    "sadness", 
+    "sadness",
     "shock",
     "stress",
     "tension",
@@ -31,7 +31,7 @@ const allEmotions = [
     "excitement",
     "happiness",
     "joy",
-    "pleasure", 
+    "pleasure",
     "affection",
     "empathy",
     "friendliness",
@@ -45,15 +45,15 @@ const allEmotions = [
     "content",
     "relaxed",
     "relieved",
-    "serene", 
+    "serene",
     "interest",
     "politeness",
     "surprise"];
-    
 
-module.exports = allEmotions.reduce(function(soul, emotion) {
+
+module.exports = allEmotions.reduce(function (soul, emotion) {
     soul[emotion] = require('./' + emotion);
     return soul;
-}, function(/* ... */) {
-    return function(the_world){ /* +1 emotions */; return the_world;  };
+}, function (/* ... */) {
+    return function (the_world) { /* +1 emotions */; return the_world; };
 });
