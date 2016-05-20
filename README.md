@@ -20,7 +20,7 @@ import {hope, envy} from 'emotions';
 
 
 ## Available Emotions
-`emotions` provides 100% coverage of all human emotions, as defined by the [HUMAINE Emotion Annotation and Representation Language (EARL)][humaine].
+`emotions` provides 100% coverage of all human emotions, as defined by the [HUMAINE Emotion Annotation and Representation Language (EARL)][humaine]:
 
 ```
 affection
@@ -67,7 +67,7 @@ serene
 shame 
 shock
 stress
-surprise]
+surprise
 tension
 trust
 worry
@@ -137,7 +137,7 @@ function(world) {
 }
 ```
 
-Basically, it's the [IO monad][io] but for emotions instead of IO.
+Basically, it's the [IO monad][io] but for emotions. We call this construct the EIO monad.
 
 #### When should I `require` emotions?
 You can require `emotions` at any point. One common use case is to include emotions at the top of a file:
@@ -149,7 +149,7 @@ import {despair} from 'emotions';
 // 50000 lines of spaghetti code
 ```
 
-You can also scope emotions tostatements:
+You can also scope emotions to statements:
 
 ```js
 ...
@@ -162,7 +162,7 @@ You can also scope emotions tostatements:
 
 or even scope emotions to individual expressions:
 
-```
+```js
 import emotions from 'emotions';
 
 ...
@@ -196,7 +196,6 @@ $ npm install emotions
 $ my-super-cool-project@0.0.1 /Users/me/my-super-cool-project
   └── emotions@0.0.1  extraneous
 ```
-
 
 
 [humaine]: http://emotion-research.net/projects/humaine/earl
