@@ -1,0 +1,25 @@
+{
+  "name": "emotions",
+  "version": "0.0.0",
+  "description": "require('emotions/delight')",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/mattbierner/emotions.git"
+  },
+  "keywords": [
+    "emotion",
+    "emotions",
+    "feelings",
+    "life"
+  ],
+  "author": "Matt Bierner (http://mattbierner.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mattbierner/emotions/issues"
+  },
+  "homepage": "https://github.com/mattbierner/emotions#readme"
+}
