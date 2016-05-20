@@ -189,14 +189,5 @@ In benchmarks, `withEmotions` is approximately 80% slower than its emotion free 
 
 
 
-----
-
-```bash
-$ npm install emotions
-$ my-super-cool-project@0.0.1 /Users/me/my-super-cool-project
-  └── emotions@0.0.1  extraneous
-```
-
-
 [humaine]: http://emotion-research.net/projects/humaine/earl
 [io]: http://research.microsoft.com/en-us/um/people/simonpj/papers/marktoberdorf/mark.pdf
