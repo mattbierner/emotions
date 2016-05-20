@@ -1,6 +1,6 @@
 {
   "name": "emotions",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "require('emotions/delight')",
   "main": "index.js",
   "scripts": {
